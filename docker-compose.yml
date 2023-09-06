@@ -28,7 +28,7 @@ services:
   dashboard:
     image: ghcr.io/saleor/saleor-dashboard:3.15.2
     ports:
-      - 9003:9003
+      - 9003:80
     restart: unless-stopped
 
   db:
